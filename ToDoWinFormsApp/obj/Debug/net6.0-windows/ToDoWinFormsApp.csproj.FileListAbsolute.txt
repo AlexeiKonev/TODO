@@ -1,0 +1,17 @@
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\bin\Debug\net6.0-windows\ToDoWinFormsApp.exe
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\bin\Debug\net6.0-windows\ToDoWinFormsApp.deps.json
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\bin\Debug\net6.0-windows\ToDoWinFormsApp.runtimeconfig.json
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\bin\Debug\net6.0-windows\ToDoWinFormsApp.dll
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\bin\Debug\net6.0-windows\ToDoWinFormsApp.pdb
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.csproj.AssemblyReference.cache
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.Form1.resources
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.csproj.GenerateResource.cache
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.AssemblyInfoInputs.cache
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.AssemblyInfo.cs
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.csproj.CoreCompileInputs.cache
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.dll
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\refint\ToDoWinFormsApp.dll
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.pdb
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ToDoWinFormsApp.genruntimeconfig.cache
+E:\NET projects\ToDoWinFormsApp\ToDoWinFormsApp\obj\Debug\net6.0-windows\ref\ToDoWinFormsApp.dll
