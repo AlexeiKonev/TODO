@@ -27,6 +27,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.buttonSave = new System.Windows.Forms.Button();
             this.txtTask = new System.Windows.Forms.TextBox();
+            this.btnDeleteTask = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstTasks
@@ -35,14 +36,14 @@
             this.lstTasks.HorizontalScrollbar = true;
             this.lstTasks.Location = new System.Drawing.Point(287, 12);
             this.lstTasks.Name = "lstTasks";
-            this.lstTasks.Size = new System.Drawing.Size(120, 329);
+            this.lstTasks.Size = new System.Drawing.Size(264, 329);
             this.lstTasks.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(36, 270);
+            this.button1.Location = new System.Drawing.Point(206, 131);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 46);
+            this.button1.Size = new System.Drawing.Size(75, 65);
             this.button1.TabIndex = 1;
             this.button1.Text = "Add Task";
             this.button1.UseVisualStyleBackColor = true;
@@ -66,11 +67,22 @@
             this.txtTask.Size = new System.Drawing.Size(155, 30);
             this.txtTask.TabIndex = 3;
             // 
+            // btnDeleteTask
+            // 
+            this.btnDeleteTask.Location = new System.Drawing.Point(206, 270);
+            this.btnDeleteTask.Name = "btnDeleteTask";
+            this.btnDeleteTask.Size = new System.Drawing.Size(75, 62);
+            this.btnDeleteTask.TabIndex = 4;
+            this.btnDeleteTask.Text = "DeleteTask";
+            this.btnDeleteTask.UseVisualStyleBackColor = true;
+            this.btnDeleteTask.Click += new System.EventHandler(this.btnDeleteTask_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(563, 344);
+            this.Controls.Add(this.btnDeleteTask);
             this.Controls.Add(this.txtTask);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.button1);
@@ -88,5 +100,6 @@
         private Button button1;
         private Button buttonSave;
         private TextBox txtTask;
+        private Button btnDeleteTask;
     }
 }
