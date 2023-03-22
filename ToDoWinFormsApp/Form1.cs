@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace ToDoWinFormsApp {
     public partial class Form1 : Form {
         public Form1() {
@@ -23,6 +25,16 @@ namespace ToDoWinFormsApp {
         private void btnDeleteTask_Click(object sender, EventArgs e) {
             if (lstTasks.SelectedIndex != -1) {
                 lstTasks.Items.RemoveAt(lstTasks.SelectedIndex);
+            }
+        }
+
+        private void buttonLoad_Click(object sender, EventArgs e) {
+            lstTasks.Items.Clear();
+            using (StreamReader sr = new StreamReader("tasks.txt")) {
+                string line;
+                while ((line = sr.ReadLine()) != null) {
+                    lstTasks.Items.Add(line);
+                }
             }
         }
     }

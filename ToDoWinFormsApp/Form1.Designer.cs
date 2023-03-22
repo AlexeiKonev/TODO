@@ -28,6 +28,7 @@
             this.buttonSave = new System.Windows.Forms.Button();
             this.txtTask = new System.Windows.Forms.TextBox();
             this.btnDeleteTask = new System.Windows.Forms.Button();
+            this.buttonLoad = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstTasks
@@ -77,11 +78,22 @@
             this.btnDeleteTask.UseVisualStyleBackColor = true;
             this.btnDeleteTask.Click += new System.EventHandler(this.btnDeleteTask_Click);
             // 
+            // buttonLoad
+            // 
+            this.buttonLoad.Location = new System.Drawing.Point(185, 16);
+            this.buttonLoad.Name = "buttonLoad";
+            this.buttonLoad.Size = new System.Drawing.Size(75, 52);
+            this.buttonLoad.TabIndex = 5;
+            this.buttonLoad.Text = "Load";
+            this.buttonLoad.UseVisualStyleBackColor = true;
+            this.buttonLoad.Click += new System.EventHandler(this.buttonLoad_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(563, 344);
+            this.Controls.Add(this.buttonLoad);
             this.Controls.Add(this.btnDeleteTask);
             this.Controls.Add(this.txtTask);
             this.Controls.Add(this.buttonSave);
@@ -101,5 +113,6 @@
         private Button buttonSave;
         private TextBox txtTask;
         private Button btnDeleteTask;
+        private Button buttonLoad;
     }
 }
