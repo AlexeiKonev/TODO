@@ -24,7 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             this.lstTasks = new System.Windows.Forms.CheckedListBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonSave = new System.Windows.Forms.Button();
             this.txtTask = new System.Windows.Forms.TextBox();
             this.btnDeleteTask = new System.Windows.Forms.Button();
@@ -37,25 +37,25 @@
             this.lstTasks.HorizontalScrollbar = true;
             this.lstTasks.Location = new System.Drawing.Point(287, 12);
             this.lstTasks.Name = "lstTasks";
-            this.lstTasks.Size = new System.Drawing.Size(264, 329);
+            this.lstTasks.Size = new System.Drawing.Size(705, 329);
             this.lstTasks.TabIndex = 0;
             // 
-            // button1
+            // buttonAdd
             // 
-            this.button1.Location = new System.Drawing.Point(206, 131);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 65);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Add Task";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonAdd.Location = new System.Drawing.Point(206, 131);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(75, 65);
+            this.buttonAdd.TabIndex = 1;
+            this.buttonAdd.Text = "Add Task";
+            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonSave
             // 
             this.buttonSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonSave.Location = new System.Drawing.Point(12, 12);
+            this.buttonSave.Location = new System.Drawing.Point(12, 16);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(95, 56);
+            this.buttonSave.Size = new System.Drawing.Size(75, 56);
             this.buttonSave.TabIndex = 2;
             this.buttonSave.Text = "Save";
             this.buttonSave.UseVisualStyleBackColor = true;
@@ -80,7 +80,7 @@
             // 
             // buttonLoad
             // 
-            this.buttonLoad.Location = new System.Drawing.Point(185, 16);
+            this.buttonLoad.Location = new System.Drawing.Point(206, 16);
             this.buttonLoad.Name = "buttonLoad";
             this.buttonLoad.Size = new System.Drawing.Size(75, 52);
             this.buttonLoad.TabIndex = 5;
@@ -92,12 +92,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(563, 344);
+            this.ClientSize = new System.Drawing.Size(1004, 344);
             this.Controls.Add(this.buttonLoad);
             this.Controls.Add(this.btnDeleteTask);
             this.Controls.Add(this.txtTask);
             this.Controls.Add(this.buttonSave);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.lstTasks);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -109,7 +109,7 @@
         #endregion
 
         private CheckedListBox lstTasks;
-        private Button button1;
+        private Button buttonAdd;
         private Button buttonSave;
         private TextBox txtTask;
         private Button btnDeleteTask;

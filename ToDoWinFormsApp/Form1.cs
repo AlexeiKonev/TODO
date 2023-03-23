@@ -14,7 +14,7 @@ namespace ToDoWinFormsApp {
             }
         }
 
-        private void button1_Click(object sender, EventArgs e) {
+        private void buttonAdd_Click(object sender, EventArgs e) {
             string newTask = txtTask.Text;
             if (!string.IsNullOrWhiteSpace(newTask)) {
                 lstTasks.Items.Add(newTask);
